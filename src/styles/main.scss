@@ -1,3 +1,106 @@
 body {
   margin: 0;
+  padding: 0;
+  background-image: url(../images/speaker\ in\ center\ of\ image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+// Header CSS
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1260px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 120px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  height: 96px;
+}
+
+.header__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.header__icons_phone {
+  height: 32px;
+  width: 32px;
+  background-image: url(../images/Icon-Phone-call.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.header__icons_phone--number-text {
+  display: none;
+  white-space: nowrap;
+  position: absolute;
+  left: -140px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  color: #1b2129;
+}
+
+.header__icons_phone:hover .header__icons_phone--number-text {
+  display: block;
+}
+
+.header__icons_menu {
+  height: 32px;
+  width: 32px;
+  background-image: url(../images/Icon-Burger-menu.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.header__icons_menu:hover {
+  height: 32px;
+  width: 32px;
+  background-image: url(../images/Icon-Burger-menu-hover.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.header__icons_menu--link {
+  height: 32px;
+  width: 32px;
+  display: block;
+}
+
+.header__text {
+  font-family: Manrope, sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #fff;
+  padding-bottom: 64px;
+}
+
+// Aside menu slide out
+
+.menu-side-panel {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  transform: translate(-100%);
+  transition: 0.3s;
 }

@@ -8,6 +8,18 @@
     />
     <title>Landing Page</title>
     <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="./styles/main.scss"
     />
@@ -17,6 +29,37 @@
     ></script>
   </head>
   <body>
-    <h1>Landing Page</h1>
+    <div class="header__container">
+      <header class="header">
+        <a href="#">
+          <img
+            class="header__logo"
+            src="/src/images/Logo.png"
+            alt="Bang & Olufsen logo"
+          />
+        </a>
+        <div class="header__icons">
+          <div class="header__icons_phone">
+            <a href="tel:1+ 234 5555 55 55">
+              <span class="header__icons_phone--number-text">
+                +1 234 5555 55 55
+              </span>
+            </a>
+          </div>
+          <div class="header__icons_menu">
+            <a
+              class="header__icons_menu--link"
+              href="#menu"
+            ></a>
+          </div>
+        </div>
+      </header>
+      <div class="header__text">
+        Your senses.
+        <br />
+        Set free.
+      </div>
+    </div>
+    <aside class="menu-side-panel"></aside>
   </body>
 </html>
