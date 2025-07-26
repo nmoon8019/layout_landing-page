@@ -2,7 +2,9 @@ body {
   margin: 0;
   padding: 0;
 }
-// Header
+
+// Header is transparent
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -10,7 +12,7 @@ body {
   box-sizing: border-box;
   height: 96px;
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   background: transparent;
@@ -59,21 +61,60 @@ body {
   font-size: 56px;
   line-height: 100%;
   letter-spacing: 0;
-  color: #ffffff;
+  color: #fff;
   position: absolute;
   top: 544px;
 }
 
 // Recommended section
-section {
+
+.recommended {
   padding: 0 120px;
 }
-.recommended h2 {
+
+.section-title {
   font-family: Manrope, sans-serif;
   font-weight: 700;
   font-size: 48px;
   line-height: 48px;
   letter-spacing: 0;
+  color: #1b2129;
   margin-top: 120px;
   margin-bottom: 56px;
+}
+
+.recommended__products {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+}
+
+.recommended__product {
+  grid-column: span 4;
+  min-width: 324px;
+}
+
+.product-title {
+  font-family: Manrope, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0;
+  color: #1b2129;
+}
+
+.product-description {
+  font-family: Manrope, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.15px;
+}
+
+.product-price {
+  font-family: Manrope, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0;
 }

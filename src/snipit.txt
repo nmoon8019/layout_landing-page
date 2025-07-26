@@ -1,0 +1,67 @@
+<section
+  class="categories"
+  id="categories"
+>
+  <h2 class="section-title">
+    Sound. Vision.
+    <br />
+    It's your pick.
+  </h2>
+  <div class="categories__products">
+    <article class="categories__product">
+      <a href="#">
+        <img
+          src="/src/images/Port-speaker-left.png"
+          alt="Disk shaped portable speaker"
+        />
+      </a>
+    </article>
+    <article class="categories__product">
+      <a href="#">
+        <img
+          src="/src/images/Port-speaker-right.png"
+          alt="Cylinder shaped portable speaker"
+        />
+      </a>
+    </article>
+  </div>
+  <h3 class="categories-title">Portable speakers</h3>
+  <div class="categories__products">
+    <article class="categories__product">
+      <a href="#">
+        <img
+          src="/src/images/Earphones-left.png"
+          alt="Earphones with case"
+        />
+      </a>
+    </article>
+    <article class="categories__product">
+      <a href="#">
+        <img
+          src="/src/images/Earphones-right.png"
+          alt="Earphones with case"
+        />
+      </a>
+    </article>
+  </div>
+  <h3 class="categories-title">Earphones</h3>
+  <div class="categories__products">
+    <article class="categories__product">
+      <a href="#">
+        <img
+          src="/src/images/Smart-home-left.png"
+          alt="Smart home speaker"
+        />
+      </a>
+    </article>
+    <article class="categories__product">
+      <a href="#">
+        <img
+          src="/src/images/Smart-home-right.png"
+          alt="Smart home speaker"
+        />
+      </a>
+    </article>
+  </div>
+  <h3 class="categories-title">Smart home</h3>
+</section>
